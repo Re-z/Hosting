@@ -1,0 +1,82 @@
+.calculator, ., .gear, .phone, .real-estate, .time-cycle, .cart, .clock, .data-center-counter, .deals, .directory, .employment, .data-center-counter{
+	background: url(sprites.png) no-repeat;
+}
+
+.calculator{
+	background-position: -199px -1px ;
+	width: 50px;
+	height: 49px;
+}
+
+.{
+	background-position: -304px -175px ;
+	width: 1px;
+	height: 1px;
+}
+
+.gear{
+	background-position: -202px -359px ;
+	width: 52px;
+	height: 41px;
+}
+
+.phone{
+	background-position: -200px -201px ;
+	width: 49px;
+	height: 37px;
+}
+
+.real-estate{
+	background-position: 0 -392px ;
+	width: 97px;
+	height: 88px;
+}
+
+.time-cycle{
+	background-position: -205px -438px ;
+	width: 42px;
+	height: 40px;
+}
+
+.cart{
+	background-position: -349px -301px ;
+	width: 48px;
+	height: 41px;
+}
+
+.clock{
+	background-position: -202px -104px ;
+	width: 46px;
+	height: 46px;
+}
+
+.data-center-counter{
+	background-position: -335px -126px ;
+	width: 62px;
+	height: 71px;
+}
+
+.deals{
+	background-position: 0 -261px ;
+	width: 105px;
+	height: 70px;
+}
+
+.directory{
+	background-position: 0 -128px ;
+	width: 86px;
+	height: 68px;
+}
+
+.employment{
+	background-position: 0 0;
+	width: 118px;
+	height: 84px;
+}
+
+.data-center-counter{
+	background-position: -335px -1px ;
+	width: 62px;
+	height: 71px;
+}
+
