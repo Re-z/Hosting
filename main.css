@@ -106,3 +106,23 @@ body {
     margin-right: 20px;
     background-color: white;
 }
+.info-section__head {
+    color: #3256A2;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 126px;
+    font-weight: 100;
+}
+.info-section__head-description {
+    color: #405189;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 9px;
+}
+.info-section__line {
+    color: #E3E3E3;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 90px;
+    opacity: 0.4;
+}
