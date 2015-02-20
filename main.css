@@ -91,3 +91,18 @@ body {
     font-size: 28px;
     font-stretch: condensed;
 }
+.content {
+    outline: 1px solid red;
+    width: 1000px;
+    height: 473px;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+.info-section {
+    outline: 1px solid red;
+    height: 398px;
+    width: 231px;
+    float: left;
+    margin-right: 20px;
+    background-color: white;
+}
