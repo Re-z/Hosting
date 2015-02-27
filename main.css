@@ -92,14 +92,14 @@ body {
     font-stretch: condensed;
 }
 .content {
-    outline: 1px solid red;
     width: 1000px;
     height: 473px;
     margin: 0 auto;
     padding-top: 75px;
 }
 .info-section {
-    outline: 1px solid red;
+    border: 1px solid #DFDFDF;
+    border-bottom: 3px solid #DFDFDF;
     height: 398px;
     width: 231px;
     float: left;
@@ -108,6 +108,10 @@ body {
     font-family: Myriadpro-regular, sans-serif;
     text-align: center;
 
+}
+.info-section:last-of-type {
+    margin-right: 0;
+    margin-left: -2px;
 }
 .info-section__title {
     color: #3256A2;
@@ -136,7 +140,24 @@ body {
 .info-section__link {
     text-decoration: underline;
     color: #C9C9C9;
-    margin-top: 32px;
-    display: block;
     font-size: 14px;
+    width: 80px;
+    margin-top: 15px;
+    position: relative;
+    top: 30px;
+}
+/*INFO-SECTION HOVER */
+.info-section:hover {
+    background-color: #2F549B;
+    transition: .5s;
+    border: 1px solid #38466B;
+}
+.info-section:hover .info-section__title, .info-section:hover .info-section__title-description, .info-section:hover .info-section__link  {
+    color: white;
+    transition: .5s;
+}
+
+.info-section:hover .info-section__description{
+    color: #7499DD;
+    transition: .5s;
 }
