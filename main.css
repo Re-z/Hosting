@@ -156,8 +156,51 @@ body {
     color: white;
     transition: .5s;
 }
-
 .info-section:hover .info-section__description{
     color: #7499DD;
     transition: .5s;
+}
+/* END HOVER */
+.orderbar-wrap {
+    height: 300px;
+    width: 1019px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+.orderbar-header {
+    outline: 1px solid red;
+    height: 60px;
+    width: 258px;
+    margin-top: 45px;
+    margin-left: 370px;
+    background-color: #2F549B;
+    position: relative;
+    z-index: 100;
+}
+.orderbar-header__text {
+    font-family: Myriadpro-regular, serif;
+    font-size: 28px;
+    color: white;
+    position: relative;
+    top: 11px;
+    left: 25px;
+    font-weight: 200;
+}
+.orderbar {
+    outline: 1px solid red;
+    height: 177px;
+    width: 1000px;
+    position: relative;
+    z-index: 10;
+    top: -23px;
+    border-top: #999999 2px solid;
+    background-color: #C6C6C6;
+}
+.orderbar__section {
+    height: 119px;
+    width: 139px;
+    outline: 1px solid black;
+    float: left;
+    margin-top: 38px;
+    margin-left: 23px;
 }
