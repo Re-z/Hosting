@@ -198,9 +198,14 @@ body {
 }
 .orderbar__section {
     height: 119px;
-    width: 139px;
     outline: 1px solid black;
     float: left;
     margin-top: 38px;
-    margin-left: 23px;
+}
+.orderbar__text {
+    font-family: Myriadpro-regular, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 72px;
+    color: #5F5F5F;
 }
