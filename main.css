@@ -177,6 +177,24 @@ body {
     position: relative;
     z-index: 100;
 }
+.orderbar-header:before {
+    content: "";
+    border: 11.5px solid transparent;
+    border-top-color: #203560;
+    border-right-color: #203560;
+    position: absolute;
+    top: 38px;
+    left: -22px;
+}
+.orderbar-header:after {
+    content: "";
+    border: 11.5px solid transparent;
+    border-top-color: #203560;
+    border-left-color: #203560;
+    position: absolute;
+    top: 38px;
+    right: -22px;
+}
 .orderbar-header__text {
     font-family: Myriadpro-regular, serif;
     font-size: 28px;
