@@ -1,82 +1,118 @@
-.calculator, ., .gear, .phone, .real-estate, .time-cycle, .cart, .clock, .data-center-counter, .deals, .directory, .employment, .data-center-counter{
+.cart, .data-center-counter, .calculator, .calculator-white, .clock, .clock-white, .data-center-number, .deals, .directory, .employment, .gear, .gear-white, .korzina, .korzina-white, .phone, .phone-white, .real-estate, .time-cycle, .time-cycle-white{
 	background: url(sprites.png) no-repeat;
 }
 
-.calculator{
-	background-position: -199px -1px ;
-	width: 50px;
-	height: 49px;
-}
-
-.{
-	background-position: -304px -175px ;
-	width: 1px;
-	height: 1px;
-}
-
-.gear{
-	background-position: -202px -359px ;
-	width: 52px;
-	height: 41px;
-}
-
-.phone{
-	background-position: -200px -201px ;
-	width: 49px;
-	height: 37px;
-}
-
-.real-estate{
-	background-position: 0 -392px ;
-	width: 97px;
-	height: 88px;
-}
-
-.time-cycle{
-	background-position: -205px -438px ;
-	width: 42px;
-	height: 40px;
-}
-
 .cart{
-	background-position: -349px -301px ;
+	background-position: 0 -103px ;
 	width: 48px;
 	height: 41px;
 }
 
+.data-center-counter{
+	background-position: -346px -397px ;
+	width: 62px;
+	height: 71px;
+}
+
+.calculator{
+	background-position: -301px -101px ;
+	width: 50px;
+	height: 49px;
+}
+
+.calculator-white{
+	background-position: 0 -252px ;
+	width: 50px;
+	height: 49px;
+}
+
 .clock{
-	background-position: -202px -104px ;
+	background-position: -153px -251px ;
 	width: 46px;
 	height: 46px;
 }
 
-.data-center-counter{
-	background-position: -335px -126px ;
+.clock-white{
+	background-position: -302px -252px ;
+	width: 46px;
+	height: 46px;
+}
+
+.data-center-number{
+	background-position: -625px -401px ;
 	width: 62px;
 	height: 71px;
 }
 
 .deals{
-	background-position: 0 -261px ;
+	background-position: 0 -557px ;
 	width: 105px;
 	height: 70px;
 }
 
 .directory{
-	background-position: 0 -128px ;
+	background-position: -601px -559px ;
 	width: 86px;
 	height: 68px;
 }
 
 .employment{
-	background-position: 0 0;
+	background-position: -300px -543px ;
 	width: 118px;
 	height: 84px;
 }
 
-.data-center-counter{
-	background-position: -335px -1px ;
-	width: 62px;
-	height: 71px;
+.gear{
+	background-position: -447px -251px ;
+	width: 52px;
+	height: 41px;
+}
+
+.gear-white{
+	background-position: -635px -252px ;
+	width: 52px;
+	height: 41px;
+}
+
+.korzina{
+	background-position: -639px -110px ;
+	width: 48px;
+	height: 41px;
+}
+
+.korzina-white{
+	background-position: -639px 0;
+	width: 48px;
+	height: 41px;
+}
+
+.phone{
+	background-position: -451px -7px ;
+	width: 49px;
+	height: 37px;
+}
+
+.phone-white{
+	background-position: -303px -8px ;
+	width: 49px;
+	height: 37px;
+}
+
+.real-estate{
+	background-position: 0 -396px ;
+	width: 97px;
+	height: 88px;
+}
+
+.time-cycle{
+	background-position: -157px 0;
+	width: 42px;
+	height: 40px;
+}
+
+.time-cycle-white{
+	background-position: 0 0;
+	width: 42px;
+	height: 40px;
 }
 

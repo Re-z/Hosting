@@ -58,7 +58,7 @@ body {
     margin-top: 30px;
 }
 .data-centers-number__logo {
-    background: url("img/new/data-center-number.png");
+    background: url("img/data-center-number.png");
     width: 62px;
     position: relative;
     top: 10px;
@@ -162,13 +162,11 @@ body {
 }
 /* END HOVER */
 .orderbar-wrap {
-    height: 300px;
+    height: 400px;
     width: 1019px;
     margin: 0 auto;
-    outline: 1px solid red;
 }
 .orderbar-header {
-    outline: 1px solid red;
     height: 60px;
     width: 258px;
     margin-top: 45px;
@@ -205,7 +203,6 @@ body {
     font-weight: 200;
 }
 .orderbar {
-    outline: 1px solid red;
     height: 177px;
     width: 1000px;
     position: relative;
@@ -216,9 +213,71 @@ body {
 }
 .orderbar__section {
     height: 119px;
-    outline: 1px solid black;
     float: left;
     margin-top: 38px;
+    background-repeat: no-repeat;
+}
+.orderbar__section-calculator {
+    background-image: url(img/calculator.png);
+    background-position: 34px 4px;
+    width: 120px;
+    margin-left: 40px
+}
+.orderbar__section-calculator:hover {
+    background-image: url("img/calculator-white.png") 
+}
+.orderbar__section-offers {
+    background-image: url(img/clock.png);
+    background-position: 37px 4px;
+    width: 120px;
+    margin-left: 40px;
+}
+.orderbar__section-offers:hover {
+    background-image: url("img/clock-white.png") 
+}
+.orderbar__section-consulting {
+    background-image: url(img/gear.png);
+    background-position: 37px 8px; 
+    width: 130px;
+    margin-left: 35px
+}
+.orderbar__section-consulting:hover {
+    background-image: url("img/gear-white.png") 
+}
+.orderbar__section-contact {
+    background-image: url(img/phone.png);
+    background-position: 43px 14px;
+    width: 137px;
+    margin-left: 27px;
+}
+.orderbar__section-contact:hover {
+    background-image: url("img/phone-white.png") 
+}
+.orderbar__section-buy {
+    background-image: url(img/korzina.png);
+    background-position: 43px 14px;
+    width: 139px;
+    margin-left: 22px;
+}
+.orderbar__section-buy:hover {
+    background-image: url("img/korzina-white.png") 
+}
+.orderbar__section-storage {
+    background-image: url(img/time-cycle.png);
+    background-position: 48px 12px;
+    width: 139px;
+    margin-left: 22px;
+}
+.orderbar__section-storage:hover {
+    background-image: url("img/time-cycle-white.png") 
+}
+.orderbar__section:hover {
+    background-color: #2F549B;
+    transition: .5s;
+}
+.orderbar__section:hover .orderbar__text {
+    color: white;
+    transition: .5s;
 }
 .orderbar__text {
     font-family: Myriadpro-regular, sans-serif;
